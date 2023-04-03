@@ -69,7 +69,7 @@ class LoginViewController: UIViewController {
             alert.addAction(okAction)
             present(alert, animated: true, completion: nil)
         } else {
-            if username == "user" && password == "password" {
+            if username == "1" && password == "1" {
                 performSegue(withIdentifier: "showWelcomeScreen", sender: self)
             } else {
                 let alert = UIAlertController(
